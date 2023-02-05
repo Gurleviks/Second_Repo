@@ -1,6 +1,6 @@
 class Animal:
     def __init__(self, legs_count):
-        print("Animal object was created")
+        print("Animal object created")
         self._number_of_legs = legs_count
 
     def runs(self):
@@ -18,7 +18,7 @@ class Dog(Animal):
         self._name = name
 
     def bark(self):
-        print("Woof woof")
+        print("Woof wof")
 
 dog = Dog("Max", 4)
 dog.bark()
