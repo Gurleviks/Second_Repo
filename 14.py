@@ -1,7 +1,7 @@
 class Animal:
     def __init__(self, legs=4):
         self.legs = legs
-        print("Animal object was created")
+        print("Animal object created")
 
     def run(self):
         print("Running started")
