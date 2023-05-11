@@ -1,5 +1,22 @@
-todo = ["exercise1", "exercise2", "exercise3","coffee break" ,"exercise4","exercise5","exercise6"]
-for x in todo:
-    if x.lower() == "coffee break":
-        print(x)
-        break
+a = 3
+b = 4
+ab = a + b
+print(ab)
+
+
+x = 7
+y = 2
+xy = x - y
+print(xy)
+
+p = 5
+q = 3
+pq = p * q
+print(pq)
+
+m = 8
+n = 2
+mn = m // n
+print(mn)
+mn = m % n
+print(mn)
